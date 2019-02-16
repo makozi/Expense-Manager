@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/express": "^4.16.1",
+    "@types/webpack": "^4.4.24",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "body-parser": "^1.18.3",
@@ -18,10 +19,8 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "webpack": "webpack",
+    "start": "npm run webpack && nodemon --exec babel-node -- bin/www"
   },
   "eslintConfig": {
     "extends": "react-app"
