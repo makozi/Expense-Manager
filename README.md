@@ -4,12 +4,12 @@
 
 
 
-# cd expense-manager
+### cd expense-manager
 
-# npm install
+### npm install
 
-# cd client && npm install ejs
+### cd client && npm install ejs
 
-# cd ..
+### cd ..
 
-# npm start
+### npm start
